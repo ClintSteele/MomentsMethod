@@ -3,7 +3,7 @@ A short project to create python code to find the mean and standard deviation fo
 
 Currently, if there are any discontinuties or signifcant non-linearities, then they are not highlighted (this would be good to add at soem time.
 
-##Getting Started
+## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 Prerequisites
