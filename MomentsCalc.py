@@ -9,7 +9,6 @@ def mean(func, vars):
     diffs2 = dd.derivative_two(func, vars)
     second = nm.multiply(diffs2, variance)
     return out + 1 / 2 * sum(second)
-    
 def StdDev(func, vars):
     variance = list(map(square, vars[1]))
     diffs = dd.derivative_one(func, vars)
@@ -24,3 +23,6 @@ def StdDev(func, vars):
     varianceout = nm.sum(nm.multiply(diffonesquared, variance)+nm.multiply(diffonetwo, skew)+.25*nm.multiply(difftwosquared,
                nm.subtract(kurtosis, list(map(square, variance)))))
     return varianceout**0.5
+
+
+

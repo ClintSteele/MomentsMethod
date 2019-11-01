@@ -21,3 +21,4 @@ def derivative_two(function, var):
         x[0][i] = var[0][i]
         x[2][i] = var[0][i]
     return deriv
+
